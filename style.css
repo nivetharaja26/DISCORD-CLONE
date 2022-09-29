@@ -1,0 +1,135 @@
+*{
+    margin:0;
+}
+.top{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:auto;
+    max-width:550px;
+}
+#butread{
+    height:40px;
+    background-color: #404eed;
+    border-radius:40px;
+    color:white;
+    border:0px;
+    font-size:12px;
+    padding:6px 17px;
+}
+#butread:hover{
+    cursor:pointer;
+
+}
+.two{
+    background-color: #404eed;
+    
+}
+.imcen{
+    position:relative;
+    width:100%;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+}
+.imleft{
+    position:absolute;
+   margin-left:-353px;
+   bottom:0;
+}
+.imright{ 
+    position:absolute;
+    margin-left: 1100px;
+    bottom:0px;
+    overflow:hidden;
+    
+}
+.readMore{
+    padding:15px;
+}
+
+
+
+.imagine{
+    display:flex;
+    justify-content: center;
+    color:white;
+    padding-top:100px;
+   
+}
+.ima{
+    font-family:"Ginto Nord","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size:56px;
+    font-weight:800;
+
+}
+
+.para{
+    display:flex;
+    justify-content: center;
+    color:white;
+    padding:30px 0px;
+    
+}
+.par{
+    font-family:"Ginto Nord","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    line-height: 30px;
+    display:flex;
+    justify-content:center;
+    padding-left:300px;
+    padding-right:300px;
+    text-align:center;
+}
+.butOne{
+    display:flex;
+    justify-content: space-evenly;
+    margin:auto;
+    max-width:500px;
+    padding-bottom:100px;
+
+}
+.but{
+    border:0;
+    outline:none;
+    border-radius:40px;
+    padding:16px 27px;
+}
+.white{
+    background-color: white;
+    color:#23272a;
+    box-shadow: 0 8px 15px rgb(0 0 0 / 20%);
+}
+.black{
+    background-color: #23272a;
+    color:white;
+}
+.dl{
+    display:flex;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin:0 50px 0 50px;
+    padding-top:20px;
+}
+.log{
+    font-family:"Ginto Nord","Whitney","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 900;
+    color:white;
+    display:flex;
+    font-size:20px;
+}
+.nlist li{
+    list-style-type: none;
+    display:inline;
+}
+.nlist{
+    padding-top:10px;
+}
+.nblist{
+    display:flex;
+    justify-content: space-around;
+    color:white;
+}
